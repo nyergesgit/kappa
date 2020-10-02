@@ -1,0 +1,124 @@
+
+body {
+    width: 40%;
+    margin: auto;
+    background-color: #dff;
+    padding-top: 60px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 5px 5px 2px #888;
+    color: #004400;
+}
+.elem {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border: 1px solid black;    
+    outline: 5px outset #777;
+    outline-offset: 3px;
+    background-color: #adffce;
+    margin: 40px;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+
+}
+.kissebb {
+    font-size: 30px;
+    background-color: #adffce;
+}
+.nagyobb {
+    background-color: #adffce;  
+}
+.jobb {
+    float: right;
+    font-family: Monotype Corsiva;
+
+}
+
+.kulso {
+    margin: 20px;
+}
+.mini {
+    text-align: right;
+    margin: 20px;
+    font-size: 13px;
+}
+.elso-cim {
+    font-family: Monotype Corsiva;
+}
+.felsorolas {
+    clear: both;
+}
+/*.sok {
+    float: right;
+} */
+table {
+    width: 70%;
+    margin: auto;
+    border-spacing: 3px;
+   
+}
+th {
+    background-color: green;
+}
+td {
+    background-color: lightgreen;
+}
+tr:last-of-type td{
+    background-color: green;
+    height: 5px;
+}
+tr td:last-of-type, th:last-of-type {
+    text-align: right;
+}
+tr td:first-of-type, th:first-of-type {
+    text-align: center;
+}
+tr td:nth-child(2), th:nth-child(2) {
+    text-align: right;
+}
+
+#menu td {
+    background-color: lightgreen;
+    border: 1px solid #333;
+    text-align: center;
+    padding: 5px;
+}
+#menu {
+    outline: 3px solid #333; 
+    outline-offset: -1px;
+    margin-top: 20px;
+    
+}
+.sok {
+    clear: both;
+    padding-left: 150px;
+}
+.egyeb {
+    margin-top: 20px;
+   
+}
+#kep {
+    width: 120px;
+   
+    
+}
+hr {
+    color: green;
+    height: 4px;
+    border: none;
+
+}
+.varjuk {
+    text-align: center;
+    font-family: Monotype Corsiva;
+    font-size: 20px;
+}
+.hollok {
+    text-align: center;
+    font-family: Monotype Corsiva;
+    font-size: 20px;
+}
